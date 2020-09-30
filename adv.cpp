@@ -1,6 +1,3 @@
-#include <algorithm>
-#include <iostream>
-#include <vector>
 #include <bits/stdc++.h> 
 
 using std::vector;
