@@ -5,7 +5,7 @@
 
 using std::vector;
 
-long long max_dot_product(vector<int> a, vector<int> b) {
+int max_dot_product(vector<int> a, vector<int> b) {
   // write your code here
   long long sum = 0;
   std::sort(a.begin(),a.end());
