@@ -2,9 +2,9 @@
 
 using std::vector;
 
-int max_dot_product(vector<int> a, vector<int> b) {
+long long max_dot_product(vector<int> a, vector<int> b) {
   // write your code here
-  int sum = 0;
+  long long sum = 0;
   std::sort(a.begin(),a.end());
   std::sort(b.begin(),b.end());
   for(int i=0;i<a.size()-1;i++){
