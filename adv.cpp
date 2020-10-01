@@ -7,7 +7,7 @@ long long max_dot_product(vector<int> a, vector<int> b) {
   long long sum = 0;
   std::sort(a.begin(),a.end());
   std::sort(b.begin(),b.end());
-  for(int i=0;i<a.size()-1;i++){
+  for(int i=0;i<a.size();i++){
   	sum = sum + (a[i]*b[i]);
   }
   return sum;
